@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+  width: 100vw;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+form {
+  display: flex;
+  gap: 10px;
+}
+button{
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+ul{
+  list-style: none;
+}
+li {
+  width: 500px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.btns {
+  display: flex;
+  gap: 5px;
+}
+.delete {
+  background-color: rgb(255, 80, 80);
+}
+.done {
+    background-color:rgb(51, 147, 185);
+  }
